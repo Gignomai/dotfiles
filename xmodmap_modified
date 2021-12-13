@@ -1,0 +1,4 @@
+keycode  52 = z Z z Z less guillemotleft z Z
+keycode  53 = x X x X greater guillemotright x X
+keycode 108 = Menu NoSymbol Menu NoSymbol Menu
+keycode 135 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift NoSymbol ISO_Level3_Shift
