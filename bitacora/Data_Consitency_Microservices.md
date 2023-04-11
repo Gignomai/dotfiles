@@ -1,0 +1,5 @@
+# Consistència de dades en  
+
+##
+
+###

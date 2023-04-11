@@ -53,6 +53,7 @@ bindkey '^H' backward-kill-word                                 # delete previou
 bindkey '^[[Z' undo                                             # Shift+tab undo last action
 
 ## Alias section
+alias cl="clear"
 alias cp="cp -i"                                                # Confirm before overwriting something
 alias df='df -h'                                                # Human-readable sizes
 alias free='free -m'                                            # Show sizes in MB
@@ -68,10 +69,15 @@ alias gcb='git checkout -b'
 alias gitu='git add . && git commit && git push'
 # APT ALIAS
 alias install='sudo apt install'
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
 # PYTHON ALIAS
 alias py='python3'
 alias pynstall='python3 -m pip install'
-
+# VIM ALIAS
+alias vim='nvim'
+# INTELLIJ ALIAS
+alias idea='intellij-idea-community'
 # Color man pages
 export LESS_TERMCAP_mb=$'\E[01;32m'
 export LESS_TERMCAP_md=$'\E[01;32m'
@@ -191,6 +197,9 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
+
+# Set XDG_CONFIG_HOME
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # Set JAVA_HOME
 export JAVA_HOME=/home/manel/.sdkman/candidates/java/current
